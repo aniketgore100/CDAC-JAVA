@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name="day5.Restaurant" table="restaurant">
+      <id name="resId" type="int" column="resId"/>            
+      <property name="name" column="name" type="string"/>
+      <property name="cuisine" column="cuisine" type="string"/>
+      <property name="bracount" column="bracount" type="int"/>     
+   </class>
+</hibernate-mapping>
